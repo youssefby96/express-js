@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+main{
+    background-color: rgb(241, 237, 237);
+    margin: 0px;
+   
+}
+*{
+  margin: 0;
+  height: auto;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(110, 3, 3);
+  }
+  .ttl{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    color: aliceblue;
+  }
+  .ctctimg{
+    margin-top: 20px; 
+    margin-left: 70px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 10px 20px 30px 3px rgba(53, 51, 51, 0.815);  
+  }
+
+.home-img{
+    margin: 50px;
+    height: 600px;
+    width: 1000px;
+    border: 5px solid rgba(161, 106, 4, 0.664);
+    border-style: ridge;
+    cursor: pointer;
+    box-shadow: 10px 20px 30px 3px rgba(85, 64, 5, 0.815);  
+}
+.imgserv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px;
+   
+}
+.imgsp{
+    margin: 13px;
+    border: 2px solid rgb(211, 208, 208);
+    cursor: pointer;
+  box-shadow: 0px 20px 30px 3px rgba(168, 6, 6, 0.815);  
+}
+.imgsp:hover{
+  transform: scale(1);
+}
+h1{
+    color: darkblue;
+}
+h5{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(145, 6, 6);
+    font-weight: bold;   
+} 
+
+.close-img{
+    width: 1600px;
+    height: 782.5px;
+}
